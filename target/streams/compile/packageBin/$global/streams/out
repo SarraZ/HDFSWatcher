@@ -1,0 +1,11 @@
+[0m[[0m[0minfo[0m] [0m[0mPackaging /home/sarra/work/HDFSWatcher/target/scala-2.11/hdfswatcher_2.11-0.1.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	HDFSFileStream$$anonfun$processNewFile$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/sarra/work/HDFSWatcher/target/scala-2.11/classes/HDFSFileStream$$anonfun$processNewFile$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	HDFSFileStream.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/sarra/work/HDFSWatcher/target/scala-2.11/classes/HDFSFileStream.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	HDFSFileStream$$anonfun$main$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/sarra/work/HDFSWatcher/target/scala-2.11/classes/HDFSFileStream$$anonfun$main$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	HDFSFileStream$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/sarra/work/HDFSWatcher/target/scala-2.11/classes/HDFSFileStream$.class[0m
+[0m[[0m[0minfo[0m] [0m[0mDone packaging.[0m
