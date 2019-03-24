@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/HDFSWatcher.iml" filepath="$PROJECT_DIR$/.idea/modules/HDFSWatcher.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/HDFSWatcher-build.iml" filepath="$PROJECT_DIR$/.idea/modules/HDFSWatcher-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kafkabroker/kafkabroker.iml" filepath="$PROJECT_DIR$/kafkabroker/kafkabroker.iml" />
     </modules>
   </component>
 </project>
