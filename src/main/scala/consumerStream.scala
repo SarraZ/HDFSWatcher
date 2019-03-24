@@ -46,8 +46,29 @@ println("we start now !!!!!!!!!!!!!!!!!!!!")
       PreferConsistent,
       Subscribe[String, String](topics, kafkaParams)
     )
+    //stream.print()
 
-    stream.map(record => (record.key, record.value))
+    //stream.map(record => (record.key, record.value)).count().print()
+
+
+
+    stream.foreachRDD(r => {
+      println("*** got an RDD, size = " + r.count())
+      r.foreach(s => println(s))
+      //r.collect().foreach(println)
+      if (r.count() > 0) {
+        // let's see how many partitions the resulting RDD has -- notice that it has nothing
+        // to do with the number of partitions in the RDD used to publish the data (4), nor
+        // the number of partitions of the topic (which also happens to be four.)
+        println("*** " + r.getNumPartitions + " partitions")
+        println("heloooooooooooooo" )
+        r.foreach(s => println(s.value(),s.timestamp()))
+        r.glom().foreach(a => println("*** partition size = " + a.size))
+      }
+    })
+
+
+
 
     ssc.start()
     ssc.awaitTermination()
